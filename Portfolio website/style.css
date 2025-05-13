@@ -119,15 +119,16 @@ button{
 }
 
 #ABimg{
-    float: left;
+    float: center;
     width: 50%;
     height: 400px;
 
 }
 
-#ABText{
-    text-align: center;
+#ABText {
     width: 50%;
+    margin: 0 auto;         /* Centers the element horizontally */
+    text-align: center;     /* Centers the text inside */
 }
 
 h1{
